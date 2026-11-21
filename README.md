@@ -1,25 +1,26 @@
-# Doomsday Guide
+# The Marvel Journey
 
-**A watch-order guide for what to catch up on before *Avengers: Doomsday*.**
+**Every Marvel Studios film and series, in story order — the whole MCU journey.**
 
-A curated viewing list with runtime estimates, progress tracking, and a split
-between the essential main story and the optional side material — so you can
-see how much time catching up actually costs before you commit to it.
+Live site: https://saeedjamalhussains.github.io/marvelguide/
+
+A curated viewing guide to the whole Marvel Cinematic Universe, from *Captain
+America: The First Avenger* to *The Fantastic Four: First Steps*, grouped into
+saga chapters, with runtime estimates, progress tracking and a countdown to the
+next stop, *Avengers: Doomsday*.
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![No build step](https://img.shields.io/badge/build-none-brightgreen)
-
-<!-- Add the live URL here once Pages is enabled, and set it as the repo's
-     Website field in the About box. A static-site repo with no live link
-     gives a visitor nothing to look at. -->
 
 ## Features
 
 - **Tracked progress** — tick things off as you watch; your place is remembered
   between visits.
 - **Runtime estimates** so you can budget the catch-up realistically.
-- **Main story vs. side material**, separated, so the optional stuff is clearly
+- **Routes**: the whole journey, films only, the Infinity Saga, the Multiverse
+  Saga, the focused Road to Doomsday, or Essentials only.
+- **Importance levels** (Essential to Optional), so the optional stuff is clearly
   optional.
 - **Export and import your progress** as JSON — no account, nothing leaves your
   browser.
@@ -29,8 +30,8 @@ see how much time catching up actually costs before you commit to it.
 
 Open `index.html` in any browser. That's the whole setup.
 
-To publish: enable GitHub Pages under **Settings → Pages**, source `main` /
-root. The included workflow in `.github/workflows/` deploys on every push to
+To publish: GitHub Pages is set to **Settings → Pages → Source: GitHub
+Actions**. The included workflow in `.github/workflows/` deploys on every push to
 `main`.
 
 ## How it's built
